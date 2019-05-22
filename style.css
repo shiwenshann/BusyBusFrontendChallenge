@@ -26,13 +26,13 @@ li {
 
 .bus-details {
   font-size: 12px;
-  margin: 5px 16px;
+  margin: 7px 18px;
 }
 
 .bus-info {
   overflow-y: scroll;
   overflow-x: hidden;
-  height: 184px;
+  height: 369px;
   width: 375px;
 }
 
@@ -41,9 +41,9 @@ li {
 }
 
 .container {
-  background-color: #F2F2F2;
+  background-color: #F1F1F1;
   width: 375px;
-  height: 667px;
+  height: 677px;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -54,13 +54,14 @@ li {
 
 .direction {
   margin: 40px 0px 5px 20px;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 600;
 }
 
-.fa-map-marker-alt {
+
+.fa-chevron-up {
   margin-top: 3px;
-  font-size: 20px;
+  font-size: 25px;
   color: #86bef5;
 }
 
@@ -72,10 +73,26 @@ li {
   width: 45%;
 }
 
+.dest-width-jack {
+  width: 45%;
+  color: #FF0000;
+}
+
+.dest-width-out {
+  width: 45%;
+  color: #828282;
+}
+
 .freq-width {
   width: 28%;
   text-align: right;
   color: #828282;
+}
+
+.freq-width-reroute {
+  width: 28%;
+  text-align: right;
+  color: #FF0000;
 }
 
 .arrow-width {
@@ -94,28 +111,28 @@ li {
 #bus-stop-name {
   margin: 10px 24px;
   padding-top: 3px;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   width: 54%;
 }
 
 #direction-east {
   margin: 10px 0px 5px 20px;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 600;
 }
 
 #dist-width {
   width: 12%;
-  color: #828282;
+  color: #86bef5;
   text-align: right;
-  font-size: 13px;
+  font-size: 14px;
   height: 14px;
   padding-top: 8px;
 }
 
 #map {
-  height: 480px;
+  height: 274px;
   width: 375px;
 }
 
