@@ -5,7 +5,9 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 hr {
@@ -21,12 +23,12 @@ li {
   list-style-type: none;
   float: left;
   width: 30%;
-  margin: 6px 5px;
 }
 
 .bus-details {
-  font-size: 12px;
-  margin: 7px 18px;
+ clear: both;
+  margin: 7px 10px;
+	height: 30px;
   text-align: inherit;
 }
 
@@ -54,7 +56,7 @@ li {
 }
 
 .direction {
-  margin: 40px 0px 5px 20px;
+  margin: 10px 0px 5px 10px;
   font-size: 18px;
   font-weight: 600;
 }
@@ -67,16 +69,19 @@ li {
 }
 
 .line-width {
-  width: 10%;
-
+  width: 14%;
+	font-size: 24px;
+	font-weight: 900;
 }
 
 .dest-width {
-  width: 45%;
+  width: 64%;
+  font-size: 24px;
 }
 
 .dest-width-jack {
-  width: 45%;
+  width: 64%;
+  font-size: 24px;
   color: #FF0000;
 }
 
@@ -86,9 +91,9 @@ li {
 }
 
 .freq-width {
-  width: 28%;
+  width: 20%;
   text-align: right;
-  color: #828282;
+  font-size: 18px;
 }
 
 .freq-width-reroute {
@@ -97,12 +102,7 @@ li {
   color: #FF0000;
 }
 
-.arrow-width {
-  width: 3%;
-  color: #828282;
-  text-align: right;
-  font-size: 13px;
-}
+
 
 .resume-width {
   width: 33%;
@@ -119,7 +119,7 @@ li {
 }
 
 #direction-east {
-  margin: 10px 0px 5px 20px;
+  margin: 10px 0px 5px 10px;
   font-size: 18px;
   font-weight: 600;
 }
