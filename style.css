@@ -15,14 +15,15 @@ hr {
   border: 0;
   border-top: 1px solid #ccc;
   margin: 1em 0;
-  padding: 0;
+  padding: 0%;
   width: 370px;
+
 }
 
 li {
   list-style-type: none;
   float: left;
-  width: 30%;
+  width: 32%;
 }
 
 .bus-details {
@@ -30,21 +31,25 @@ li {
   margin: 7px 10px;
 	height: 30px;
   text-align: inherit;
+
 }
+
+
 
 .bus-info {
   overflow-y: scroll;
   overflow-x: hidden;
-  height: 369px;
+  height: 375px;
   width: 375px;
+
 }
 
 .bus-stop {
-  border-bottom: solid 1.5px #828282;
+  border-bottom: solid 1.5px #DCDCDC;
 }
 
 .container {
-  background-color: #FFFFFF;
+  background-color: #F5F5F5;
   width: 375px;
   height: 677px;
   position: absolute;
@@ -91,9 +96,10 @@ li {
 }
 
 .freq-width {
-  width: 20%;
+  width: 22%;
   text-align: right;
   font-size: 18px;
+  padding: 2%;
 }
 
 .freq-width-reroute {
@@ -113,10 +119,12 @@ li {
 #bus-stop-name {
   margin: 10px 24px;
   padding-top: 3px;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 19px;
+  font-weight: 300;
   width: 54%;
+
 }
+
 
 #direction-east {
   margin: 10px 0px 5px 10px;
