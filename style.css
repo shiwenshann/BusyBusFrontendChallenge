@@ -34,7 +34,7 @@ li {
 	height: 30px;
   text-align: inherit;
   border-bottom: 1px solid gray;
-  height: 50px;
+  height: 60px;
 
 }
 
@@ -42,7 +42,10 @@ li {
   height: 70px;
 }
 
-
+.sm-text{
+  font-size: 12px;
+  color: gray;
+}
 
 
 .bus-info {
@@ -93,7 +96,7 @@ li {
 
 .dest-width {
   width: 64%;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .dest-width-jack {
@@ -109,9 +112,9 @@ li {
 
 .freq-width {
   width: 22%;
-  text-align: right;
-  font-size: 18px;
-  line-height: 150%
+  text-align: center;
+  font-size: 15px;
+  line-height: 100%
 
 }
 
@@ -132,10 +135,10 @@ li {
 #bus-stop-name {
   font-size: 19px;
   font-weight: 300;
-  width: 54%;
+  width: 70%;
   height: 40px;
   vertical-align: center;
-
+  padding-top: 5px;
 }
 
 
@@ -146,11 +149,12 @@ li {
 }
 
 #dist-width {
-  width: 12%;
+  width: 16%;
   color: #86bef5;
   text-align: right;
   font-size: 14px;
   height: 40px;
+  padding-top: 9px;
 }
 
 #map {
@@ -159,7 +163,6 @@ li {
 }
 
 #pin-width {
-  width: 10%;
   height: 40px;
-  width: 50px;
+  width: 14%;
 }
